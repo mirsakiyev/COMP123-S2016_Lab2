@@ -23,8 +23,8 @@ namespace COMP123_S2016_Lab2
         {           
             Person person = new Person("Aslan");
 
-            //Person.SayHello();
-            //Person.ShowAge();
+            person.SayHello();
+            person.ShowAge();
 
 
         }

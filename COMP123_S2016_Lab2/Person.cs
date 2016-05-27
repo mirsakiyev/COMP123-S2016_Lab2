@@ -59,9 +59,9 @@ namespace COMP123_S2016_Lab2
           *
           * @method SayHello
           */
-        public static void SayHello(string _name)
+        public void SayHello()
         {
-            Console.WriteLine("Hello" + _name);
+            Console.WriteLine("Hello " + _name);
                              
         }
 
@@ -71,11 +71,11 @@ namespace COMP123_S2016_Lab2
          *
         * @method ShowAge 
         */
-        public static void ShowAge(string _name, int _age)
+        public void ShowAge()
         {
             Console.WriteLine(_name+" is "+_age+" years old");           
         }
 
-       
+        
     }
 }
