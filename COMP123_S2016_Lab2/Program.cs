@@ -11,16 +11,24 @@ namespace COMP123_S2016_Lab2
      * 
      * @class Program
      */
-    class Program
+    public class Program
     {
         /**
          * The main method for our driver class Program
          *
          * @method Main
-         * @param {strinf[]} args
+         * @param {string[]} args
          */
         static void Main(string[] args)
-        {
+        {           
+            Person person = new Person("Aslan");
+
+            //Person.SayHello();
+            //Person.ShowAge();
+
+
         }
+
+        
     }
 }
